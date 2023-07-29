@@ -1,0 +1,124 @@
+@font-face {
+      font-family: nombre;
+      src: url("fuentes/cocogoose.ttf");
+}
+@font-face {
+        font-family: titulos;
+        src: url("fuentes/Cocogoose\ Pro\ Semilight-trial.ttf");
+}
+@font-face {
+    font-family: texto;
+    src: url("fuentes/Cocogoose\ Pro\ Light-trial.ttf");
+}
+@font-face {
+  font-family: number;
+  src: url("fuentes/Cocogoose\ Pro\ Thin-trial.ttf");
+}   
+
+body {
+    background-image: url("Fondo.jpg");
+    background-repeat: no-repeat;
+    color: rgb(185, 185, 185);
+    font-family: texto, sans-serif;
+
+  }
+  
+.navbar{
+  background-color: rgb(48, 57, 31);
+  height: 60px;
+  border-radius: 10px;
+}
+
+  .navbar ul {
+  margin: 0;
+  padding: 5px;
+  }
+
+  .navbar ul li {
+  display: inline-block;
+  }
+
+  .navbar ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 10px;
+  }
+
+  .navbar ul li a:hover {
+  background-color: rgb(102, 138, 76);
+  }
+
+#nombre{
+    font-family: nombre, sans-serif;
+    text-align: center;
+    letter-spacing: 4px;
+    word-spacing: 8px;    
+  }
+
+  h2{
+    font-family: titulos;
+    border-left: 3px solid rgb(172, 204, 123);
+    padding-left: 7px;
+  }
+
+ #presentacion{
+    text-align: center;
+  }
+  
+ hr{
+    border-width: 2px;
+    width: 50%; 
+    border-color: rgb(172, 204, 123);
+  }
+
+.tablas{
+    width: 80%;
+    vertical-align: middle;
+    padding: 4px;
+  }  
+  
+th{
+  font-family: titulos, sans-serif;
+  background-color: rgb(48, 57, 31);
+  padding: 7px;
+  text-align: left;
+}
+  
+tr:nth-child(even) {background-color: #f2f2f213;}
+tr:hover {background-color: rgb(70, 69, 69);}
+
+a{
+  color: rgb(185, 185, 185);
+  font-family: titulos, sans-serif;
+  text-decoration: none;
+}
+
+h2,table{
+  margin-left: 15px;
+}
+
+label,p{
+  line-height: 200%;
+}
+
+.fotocarne{
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#cntc{
+text-align: center;
+border-left: none;
+}
+
+.contacto {
+  text-align: center;
+  margin: auto;
+}
+
+.number{
+  font-family: number, sans-serif;
+}
